@@ -9,7 +9,8 @@ def menu
   puts '1: Enter Git Command'.colorize :cyan
   puts '2: Exit'.colorize :cyan
   choice = gets.to_i
-  case choicewhen 1
+  case choice
+  when 1
     puts 'Enter Git Command'
     puts_git(gets.strip)
     menu
